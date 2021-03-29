@@ -1,0 +1,15 @@
+layout_twocol_bootstrap_section:
+  label: 'Two column bootstrap'
+  path: layouts/twocol_bootstrap_section
+  template: layout--twocol-bootstrap-section
+  library: webspark_module_renovation_layouts/twocol_bootstrap_section
+  class: '\Drupal\webspark_module_renovation_layouts\Plugin\Layout\TwoColumnBootstrapLayout'
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
