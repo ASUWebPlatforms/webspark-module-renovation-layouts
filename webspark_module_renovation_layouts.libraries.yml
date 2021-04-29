@@ -4,3 +4,9 @@ twocol_bootstrap_section:
   css:
     theme:
       layouts/twocol_bootstrap_section/twocol_bootstrap_section.css: {}
+
+onecol_full_width_section:
+  version: 1.0
+  css:
+    theme:
+      layouts/onecol_full_width_section/onecol_full_width_section.css: {}

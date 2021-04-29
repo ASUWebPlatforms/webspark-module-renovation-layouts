@@ -13,3 +13,28 @@ layout_twocol_bootstrap_section:
       label: First
     second:
       label: Second
+
+onecol_full_width_section:
+  label: 'One Column full-width section'
+  path: layouts/onecol_full_width_section
+  template: onecol-full-width-section
+  library: webspark_module_renovation_layouts/onecol_full_width_section
+  category: 'Columns: 1'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+
+onecol_fixed_width_section:
+  label: 'One Column fixed-width section'
+  path: layouts/onecol_fixed_width_section
+  template: onecol-fixed-width-section
+  category: 'Columns: 1'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
