@@ -11,7 +11,8 @@
  */
 #}
 
-{% if content %}
+{% if content.first is not empty or content.second is not empty %}
+<div {{ attributes }}>
   <div class="container">
     <div class="row">
 
@@ -42,4 +43,5 @@
 
     </div>
   </div>
+</div>
 {% endif %}
