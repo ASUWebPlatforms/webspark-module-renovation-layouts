@@ -172,3 +172,45 @@ fourcol_fixed_width_section:
       label: Third
     fourth:
       label: Fourth
+
+threecol_grid_section:
+  label: 'Three Column grid section'
+  path: layouts/threecol_grid_section
+  template: threecol-grid-section
+  library: webspark_module_renovation_layouts/threecol_grid_section
+  classes:
+    style:
+      label: 'Style'
+      multiple: true
+      required: false
+      options:
+        'gray-1-bg': 'Gray 1 Background'
+        'gray-2-bg': 'Gray 2 Background'
+        'gray-7-bg': 'Gray 7 Background'
+        'white-bg': 'White Background'
+        'bg morse-code-white': 'Morse Code White Background'
+        'bg morse-code-black': 'Morse Code Black Background'
+        'bg network-white': 'Network Code White Background'
+        'bg network-black': 'Network Code Black Background'
+        'bg topo-white': 'Topo White Background'
+        'bg topo-black': 'Topo Black Background'
+      description: 'Select the background for this region.'
+    widths:
+      label: 'Column width'
+      multiple: false
+      required: true
+      options:
+        '4-4-4': '4/4/4'
+        '3-6-3': '3/6/3'
+      description: 'Select the column widths for this region.'
+  category: 'Columns: 3'
+  default_region: first
+  icon_map:
+    - [first, second, third]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+    third:
+      label: Third
