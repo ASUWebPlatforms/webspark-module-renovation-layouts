@@ -1,0 +1,6 @@
+@media screen and (min-width: 40em) {
+  .layout-builder__region.js-layout-builder-region.layout__region.layout__region--first.w-70,
+  .layout-builder__region.js-layout-builder-region.layout__region.layout__region--second.w-30 {
+    padding:0;
+  }
+}

@@ -22,3 +22,15 @@ fourcol_fixed_width_section:
   css:
     theme:
       layouts/fourcol_fixed_width_section/fourcol-fixed-width-section.css: {}
+
+twocol_30_70_fixed_width_section:
+  version: 1.0
+  css:
+    theme:
+      layouts/twocol_30_70_fixed_width_section/twocol-30-70-fixed-width-section.css: {}
+
+twocol_70_30_fixed_width_section:
+  version: 1.0
+  css:
+    theme:
+      layouts/twocol_70_30_fixed_width_section/twocol-70-30-fixed-width-section.css: {}

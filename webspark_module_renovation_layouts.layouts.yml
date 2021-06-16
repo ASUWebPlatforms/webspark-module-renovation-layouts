@@ -172,3 +172,66 @@ fourcol_fixed_width_section:
       label: Third
     fourth:
       label: Fourth
+twocol_70_30_fixed_width_section:
+  label: 'Two column 70%/30% fixed width'
+  path: layouts/twocol_70_30_fixed_width_section
+  template: twocol-70-30-fixed-width-section
+  library: webspark_module_renovation_layouts/twocol_70_30_fixed_width_section
+  classes:
+    style:
+      label: 'Style'
+      multiple: true
+      required: false
+      options:
+        'gray-1-bg': 'Gray 1 Background'
+        'gray-2-bg': 'Gray 2 Background'
+        'gray-7-bg': 'Gray 7 Background'
+        'white-bg': 'White Background'
+        'bg morse-code-white': 'Morse Code White Background'
+        'bg morse-code-black': 'Morse Code Black Background'
+        'bg network-white': 'Network Code White Background'
+        'bg network-black': 'Network Code Black Background'
+        'bg topo-white': 'Topo White Background'
+        'bg topo-black': 'Topo Black Background'
+      description: 'Select the background for this region.'
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
+
+twocol_30_70_fixed_width_section:
+  label: 'Two column 30%/70% fixed width'
+  path: layouts/twocol_30_70_fixed_width_section
+  template: twocol-30-70-fixed-width-section
+  library: webspark_module_renovation_layouts/twocol_30_70_fixed_width_section
+  classes:
+    style:
+      label: 'Style'
+      multiple: true
+      required: false
+      options:
+        'gray-1-bg': 'Gray 1 Background'
+        'gray-2-bg': 'Gray 2 Background'
+        'gray-7-bg': 'Gray 7 Background'
+        'white-bg': 'White Background'
+        'bg morse-code-white': 'Morse Code White Background'
+        'bg morse-code-black': 'Morse Code Black Background'
+        'bg network-white': 'Network Code White Background'
+        'bg network-black': 'Network Code Black Background'
+        'bg topo-white': 'Topo White Background'
+        'bg topo-black': 'Topo Black Background'
+      description: 'Select the background for this region.'
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [first]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
