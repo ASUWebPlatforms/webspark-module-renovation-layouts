@@ -5,6 +5,18 @@ layout_twocol_bootstrap_section:
   library: webspark_module_renovation_layouts/twocol_bootstrap_section
   class: '\Drupal\webspark_module_renovation_layouts\Plugin\Layout\TwoColumnBootstrapLayout'
   classes:
+    widths:
+      label: 'Column width'
+      multiple: false
+      required: true
+      default: '6-6'
+      options:
+        '6-6': '6/6 (50%/50%)'
+        '3-9': '3/9 (25%/75%)'
+        '4-8': '4/8 (33%/66%)'
+        '9-3': '9/3 (75%/25%)'
+        '8-4': '8/4 (66%/33%)'
+      description: 'Select the column widths for this region.'
     style:
       label: 'Style'
       multiple: true
@@ -21,18 +33,37 @@ layout_twocol_bootstrap_section:
         'bg topo-white': 'Topo White Background'
         'bg topo-black': 'Topo Black Background'
       description: 'Select the background for this region.'
-    widths:
-      label: 'Column width'
+    direction:
+      label: 'Background position'
       multiple: false
       required: true
-      default: '6-6'
+      default: 'bg-top'
       options:
-        '6-6': '6/6 (50%/50%)'
-        '3-9': '3/9 (25%/75%)'
-        '4-8': '4/8 (33%/66%)'
-        '9-3': '9/3 (75%/25%)'
-        '8-4': '8/4 (66%/33%)'
-      description: 'Select the column widths for this region.'
+        'bg-top': 'Top'
+        'bg-bottom': 'Bottom'
+      description: 'Select the background position.'
+    length:
+      label: 'Background fill percent'
+      multiple: false
+      required: true
+      default: 'bg-percent-100'
+      options:
+        'bg-percent-100': '100%'
+        'bg-percent-75': '75%'
+        'bg-percent-66': '66%'
+        'bg-percent-50': '50%'
+        'bg-percent-33': '33%'
+        'bg-percent-25': '25%'
+      description: 'Select the background fill percentage.'
+    flex:
+      label: 'Flex direction'
+      multiple: false
+      required: true
+      default: 'uds-flex-order-default'
+      options:
+        'uds-flex-order-default': 'Default'
+        'uds-flex-order-reversed': 'Reverse'
+      description: 'Select the stacking order.'
   category: 'Columns: 2'
   default_region: first
   icon_map:
@@ -65,6 +96,28 @@ onecol_full_width_section:
         'bg topo-white': 'Topo White Background'
         'bg topo-black': 'Topo Black Background'
       description: 'Select the background for this region.'
+    direction:
+      label: 'Background position'
+      multiple: false
+      required: true
+      default: 'bg-top'
+      options:
+        'bg-top': 'Top'
+        'bg-bottom': 'Bottom'
+      description: 'Select the background position.'
+    length:
+      label: 'Background fill percent'
+      multiple: false
+      required: true
+      default: 'bg-percent-100'
+      options:
+        'bg-percent-100': '100%'
+        'bg-percent-75': '75%'
+        'bg-percent-66': '66%'
+        'bg-percent-50': '50%'
+        'bg-percent-33': '33%'
+        'bg-percent-25': '25%'
+      description: 'Select the background fill percentage.'
   category: 'Columns: 1'
   default_region: first
   icon_map:
@@ -94,6 +147,28 @@ onecol_fixed_width_section:
         'bg topo-white': 'Topo White Background'
         'bg topo-black': 'Topo Black Background'
       description: 'Select the background for this region.'
+    direction:
+      label: 'Background position'
+      multiple: false
+      required: true
+      default: 'bg-top'
+      options:
+        'bg-top': 'Top'
+        'bg-bottom': 'Bottom'
+      description: 'Select the background position.'
+    length:
+      label: 'Background fill percent'
+      multiple: false
+      required: true
+      default: 'bg-percent-100'
+      options:
+        'bg-percent-100': '100%'
+        'bg-percent-75': '75%'
+        'bg-percent-66': '66%'
+        'bg-percent-50': '50%'
+        'bg-percent-33': '33%'
+        'bg-percent-25': '25%'
+      description: 'Select the background fill percentage.'
   category: 'Columns: 1'
   default_region: first
   icon_map:
@@ -121,22 +196,6 @@ threecol_fixed_width_section:
   template: threecol-fixed-width-section
   library: webspark_module_renovation_layouts/threecol_fixed_width_section
   classes:
-    style:
-      label: 'Style'
-      multiple: true
-      required: false
-      options:
-        'gray-1-bg': 'Gray 1 Background'
-        'gray-2-bg': 'Gray 2 Background'
-        'gray-7-bg': 'Gray 7 Background'
-        'white-bg': 'White Background'
-        'bg morse-code-white': 'Morse Code White Background'
-        'bg morse-code-black': 'Morse Code Black Background'
-        'bg network-white': 'Network Code White Background'
-        'bg network-black': 'Network Code Black Background'
-        'bg topo-white': 'Topo White Background'
-        'bg topo-black': 'Topo Black Background'
-      description: 'Select the background for this region.'
     widths:
       label: 'Column width'
       multiple: false
@@ -157,6 +216,44 @@ threecol_fixed_width_section:
         '5-2-5': '5/2/5 (42%/16%/41%)'
         '5-5-2': '5/5/2 (42%/42%/16%)'
       description: 'Select the column widths for this region.'
+    style:
+      label: 'Style'
+      multiple: true
+      required: false
+      options:
+        'gray-1-bg': 'Gray 1 Background'
+        'gray-2-bg': 'Gray 2 Background'
+        'gray-7-bg': 'Gray 7 Background'
+        'white-bg': 'White Background'
+        'bg morse-code-white': 'Morse Code White Background'
+        'bg morse-code-black': 'Morse Code Black Background'
+        'bg network-white': 'Network Code White Background'
+        'bg network-black': 'Network Code Black Background'
+        'bg topo-white': 'Topo White Background'
+        'bg topo-black': 'Topo Black Background'
+      description: 'Select the background for this region.'
+    direction:
+      label: 'Background position'
+      multiple: false
+      required: true
+      default: 'bg-top'
+      options:
+        'bg-top': 'Top'
+        'bg-bottom': 'Bottom'
+      description: 'Select the background position.'
+    length:
+      label: 'Background fill percent'
+      multiple: false
+      required: true
+      default: 'bg-percent-100'
+      options:
+        'bg-percent-100': '100%'
+        'bg-percent-75': '75%'
+        'bg-percent-66': '66%'
+        'bg-percent-50': '50%'
+        'bg-percent-33': '33%'
+        'bg-percent-25': '25%'
+      description: 'Select the background fill percentage.'
   category: 'Columns: 3'
   default_region: first
   icon_map:
@@ -191,6 +288,28 @@ fourcol_fixed_width_section:
         'bg topo-white': 'Topo White Background'
         'bg topo-black': 'Topo Black Background'
       description: 'Select the background for this region.'
+    direction:
+      label: 'Background position'
+      multiple: false
+      required: true
+      default: 'bg-top'
+      options:
+        'bg-top': 'Top'
+        'bg-bottom': 'Bottom'
+      description: 'Select the background position.'
+    length:
+      label: 'Background fill percent'
+      multiple: false
+      required: true
+      default: 'bg-percent-100'
+      options:
+        'bg-percent-100': '100%'
+        'bg-percent-75': '75%'
+        'bg-percent-66': '66%'
+        'bg-percent-50': '50%'
+        'bg-percent-33': '33%'
+        'bg-percent-25': '25%'
+      description: 'Select the background fill percentage.'
   category: 'Columns: 4'
   default_region: first
   icon_map:
