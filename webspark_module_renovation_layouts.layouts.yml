@@ -24,7 +24,7 @@ layout_twocol_bootstrap_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Gray 7 Background'
+        'bg gray-7-bg': 'Black Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
         'bg morse-code-black': 'Morse Code Black Background'
@@ -87,7 +87,7 @@ onecol_full_width_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Gray 7 Background'
+        'bg gray-7-bg': 'Black Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
         'bg morse-code-black': 'Morse Code Black Background'
@@ -138,7 +138,7 @@ onecol_fixed_width_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Gray 7 Background'
+        'bg gray-7-bg': 'Black Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
         'bg morse-code-black': 'Morse Code Black Background'
@@ -223,7 +223,7 @@ threecol_fixed_width_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Gray 7 Background'
+        'bg gray-7-bg': 'Black Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
         'bg morse-code-black': 'Morse Code Black Background'
@@ -279,7 +279,7 @@ fourcol_fixed_width_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Gray 7 Background'
+        'bg gray-7-bg': 'Black Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
         'bg morse-code-black': 'Morse Code Black Background'
