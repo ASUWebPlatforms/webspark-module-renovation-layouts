@@ -14,7 +14,7 @@
 {% if content.first is not empty or content.second is not empty %}
 {% set widths = settings.additional.classes.widths|split('-') %}
 <div {{ attributes }}>
-  <div class="container">
+  <div class="container py-5">
     <div class="row">
       {% if content.first %}
         <div {{ region_attributes.first.addClass('layout__region', 'layout__region--first', 'col-md-' ~ widths[0]) }}>
