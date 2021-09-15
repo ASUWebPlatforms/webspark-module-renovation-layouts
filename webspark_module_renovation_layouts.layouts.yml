@@ -1,79 +1,3 @@
-layout_twocol_bootstrap_section:
-  label: 'Two column bootstrap'
-  path: layouts/twocol_bootstrap_section
-  template: layout--twocol-bootstrap-section
-  library: webspark_module_renovation_layouts/twocol_bootstrap_section
-  class: '\Drupal\webspark_module_renovation_layouts\Plugin\Layout\TwoColumnBootstrapLayout'
-  classes:
-    widths:
-      label: 'Column width'
-      multiple: false
-      required: true
-      default: '6-6'
-      options:
-        '6-6': '6/6 (50%/50%)'
-        '3-9': '3/9 (25%/75%)'
-        '4-8': '4/8 (33%/66%)'
-        '9-3': '9/3 (75%/25%)'
-        '8-4': '8/4 (66%/33%)'
-      description: 'Select the column widths for this region.'
-    style:
-      label: 'Style'
-      multiple: true
-      required: false
-      options:
-        'bg gray-1-bg': 'Gray 1 Background'
-        'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Black Background'
-        'bg white-bg': 'White Background'
-        'bg morse-code-white': 'Morse Code White Background'
-        'bg morse-code-black': 'Morse Code Black Background'
-        'bg network-white': 'Network Code White Background'
-        'bg network-black': 'Network Code Black Background'
-        'bg topo-white': 'Topo White Background'
-        'bg topo-black': 'Topo Black Background'
-      description: 'Select the background for this region.'
-    direction:
-      label: 'Background position'
-      multiple: false
-      required: true
-      default: 'bg-top'
-      options:
-        'bg-top': 'Top'
-        'bg-bottom': 'Bottom'
-      description: 'Select the background position.'
-    length:
-      label: 'Background fill percent'
-      multiple: false
-      required: true
-      default: 'bg-percent-100'
-      options:
-        'bg-percent-100': '100%'
-        'bg-percent-75': '75%'
-        'bg-percent-66': '66%'
-        'bg-percent-50': '50%'
-        'bg-percent-33': '33%'
-        'bg-percent-25': '25%'
-      description: 'Select the background fill percentage.'
-    flex:
-      label: 'Flex direction'
-      multiple: false
-      required: true
-      default: 'uds-flex-order-default'
-      options:
-        'uds-flex-order-default': 'Default'
-        'uds-flex-order-reversed': 'Reverse'
-      description: 'Select the stacking order.'
-  category: 'Columns: 2'
-  default_region: first
-  icon_map:
-    - [first, second]
-  regions:
-    first:
-      label: First
-    second:
-      label: Second
-
 onecol_full_width_section:
   label: 'One Column full-width section'
   path: layouts/onecol_full_width_section
@@ -189,6 +113,82 @@ onecol_article_hero_section:
   regions:
     first:
       label: First
+      
+layout_twocol_bootstrap_section:
+  label: 'Two column bootstrap'
+  path: layouts/twocol_bootstrap_section
+  template: layout--twocol-bootstrap-section
+  library: webspark_module_renovation_layouts/twocol_bootstrap_section
+  class: '\Drupal\webspark_module_renovation_layouts\Plugin\Layout\TwoColumnBootstrapLayout'
+  classes:
+    widths:
+      label: 'Column width'
+      multiple: false
+      required: true
+      default: '6-6'
+      options:
+        '6-6': '6/6 (50%/50%)'
+        '3-9': '3/9 (25%/75%)'
+        '4-8': '4/8 (33%/66%)'
+        '9-3': '9/3 (75%/25%)'
+        '8-4': '8/4 (66%/33%)'
+      description: 'Select the column widths for this region.'
+    style:
+      label: 'Style'
+      multiple: true
+      required: false
+      options:
+        'bg gray-1-bg': 'Gray 1 Background'
+        'bg gray-2-bg': 'Gray 2 Background'
+        'bg gray-7-bg': 'Black Background'
+        'bg white-bg': 'White Background'
+        'bg morse-code-white': 'Morse Code White Background'
+        'bg morse-code-black': 'Morse Code Black Background'
+        'bg network-white': 'Network Code White Background'
+        'bg network-black': 'Network Code Black Background'
+        'bg topo-white': 'Topo White Background'
+        'bg topo-black': 'Topo Black Background'
+      description: 'Select the background for this region.'
+    direction:
+      label: 'Background position'
+      multiple: false
+      required: true
+      default: 'bg-top'
+      options:
+        'bg-top': 'Top'
+        'bg-bottom': 'Bottom'
+      description: 'Select the background position.'
+    length:
+      label: 'Background fill percent'
+      multiple: false
+      required: true
+      default: 'bg-percent-100'
+      options:
+        'bg-percent-100': '100%'
+        'bg-percent-75': '75%'
+        'bg-percent-66': '66%'
+        'bg-percent-50': '50%'
+        'bg-percent-33': '33%'
+        'bg-percent-25': '25%'
+      description: 'Select the background fill percentage.'
+    flex:
+      label: 'Flex direction'
+      multiple: false
+      required: true
+      default: 'uds-flex-order-default'
+      options:
+        'uds-flex-order-default': 'Default'
+        'uds-flex-order-reversed': 'Reverse'
+      description: 'Select the stacking order.'
+  category: 'Columns: 2'
+  default_region: first
+  icon_map:
+    - [first, second]
+  regions:
+    first:
+      label: First
+    second:
+      label: Second
 
 threecol_fixed_width_section:
   label: 'Three Column fixed-width section'
@@ -257,7 +257,7 @@ threecol_fixed_width_section:
   category: 'Columns: 3'
   default_region: first
   icon_map:
-    - [first]
+    - [first, second, third]
   regions:
     first:
       label: First
@@ -313,7 +313,7 @@ fourcol_fixed_width_section:
   category: 'Columns: 4'
   default_region: first
   icon_map:
-    - [first]
+    - [first, second, third, fourth]
   regions:
     first:
       label: First
