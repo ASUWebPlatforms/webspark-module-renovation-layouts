@@ -11,14 +11,14 @@ onecol_full_width_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Black Background'
+        'bg gray-7-bg': 'Gray 7 Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
-        'bg morse-code-black': 'Morse Code Black Background'
+        'bg morse-code-black': 'Morse Code Gray 7 Background'
         'bg network-white': 'Network Code White Background'
-        'bg network-black': 'Network Code Black Background'
+        'bg network-black': 'Network Code Gray 7 Background'
         'bg topo-white': 'Topo White Background'
-        'bg topo-black': 'Topo Black Background'
+        'bg topo-black': 'Topo Gray 7 Background'
       description: 'Select the background for this region.'
     direction:
       label: 'Background position'
@@ -62,14 +62,14 @@ onecol_fixed_width_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Black Background'
+        'bg gray-7-bg': 'Gray 7 Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
-        'bg morse-code-black': 'Morse Code Black Background'
+        'bg morse-code-black': 'Morse Code Gray 7 Background'
         'bg network-white': 'Network Code White Background'
-        'bg network-black': 'Network Code Black Background'
+        'bg network-black': 'Network Code Gray 7 Background'
         'bg topo-white': 'Topo White Background'
-        'bg topo-black': 'Topo Black Background'
+        'bg topo-black': 'Topo Gray 7 Background'
       description: 'Select the background for this region.'
     direction:
       label: 'Background position'
@@ -113,7 +113,7 @@ onecol_article_hero_section:
   regions:
     first:
       label: First
-      
+
 layout_twocol_bootstrap_section:
   label: 'Two column bootstrap'
   path: layouts/twocol_bootstrap_section
@@ -140,14 +140,14 @@ layout_twocol_bootstrap_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Black Background'
+        'bg gray-7-bg': 'Gray 7 Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
-        'bg morse-code-black': 'Morse Code Black Background'
+        'bg morse-code-black': 'Morse Code Gray 7 Background'
         'bg network-white': 'Network Code White Background'
-        'bg network-black': 'Network Code Black Background'
+        'bg network-black': 'Network Code Gray 7 Background'
         'bg topo-white': 'Topo White Background'
-        'bg topo-black': 'Topo Black Background'
+        'bg topo-black': 'Topo Gray 7 Background'
       description: 'Select the background for this region.'
     direction:
       label: 'Background position'
@@ -223,14 +223,14 @@ threecol_fixed_width_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Black Background'
+        'bg gray-7-bg': 'Gray 7 Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
-        'bg morse-code-black': 'Morse Code Black Background'
+        'bg morse-code-black': 'Morse Code Gray 7 Background'
         'bg network-white': 'Network Code White Background'
-        'bg network-black': 'Network Code Black Background'
+        'bg network-black': 'Network Code Gray 7 Background'
         'bg topo-white': 'Topo White Background'
-        'bg topo-black': 'Topo Black Background'
+        'bg topo-black': 'Topo Gray 7 Background'
       description: 'Select the background for this region.'
     direction:
       label: 'Background position'
@@ -279,14 +279,14 @@ fourcol_fixed_width_section:
       options:
         'bg gray-1-bg': 'Gray 1 Background'
         'bg gray-2-bg': 'Gray 2 Background'
-        'bg gray-7-bg': 'Black Background'
+        'bg gray-7-bg': 'Gray 7 Background'
         'bg white-bg': 'White Background'
         'bg morse-code-white': 'Morse Code White Background'
-        'bg morse-code-black': 'Morse Code Black Background'
+        'bg morse-code-black': 'Morse Code Gray 7 Background'
         'bg network-white': 'Network Code White Background'
-        'bg network-black': 'Network Code Black Background'
+        'bg network-black': 'Network Code Gray 7 Background'
         'bg topo-white': 'Topo White Background'
-        'bg topo-black': 'Topo Black Background'
+        'bg topo-black': 'Topo Gray 7 Background'
       description: 'Select the background for this region.'
     direction:
       label: 'Background position'
