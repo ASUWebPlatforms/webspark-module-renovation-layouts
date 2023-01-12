@@ -16,8 +16,11 @@ class TwoColumnBootstrapLayout extends MultiWidthLayoutBootstrapBase {
    */
   protected function getWidthOptions() {
     return [
-      'wide-l' => 'Wide left',
-      'wide-r' => 'Wide right',
+      '6-6'=> '6/6 (50%/50%)',
+      '3-9'=> '3/9 (25%/75%)',
+      '4-8'=> '4/8 (33%/66%)',
+      '9-3'=> '9/3 (75%/25%)',
+      '8-4'=> '8/4 (66%/33%)',
     ];
   }
 
@@ -25,7 +28,7 @@ class TwoColumnBootstrapLayout extends MultiWidthLayoutBootstrapBase {
    * {@inheritdoc}
    */
   protected function getDefaultWidth() {
-    return 'wide-l';
+    return '6-6';
   }
 
 }
