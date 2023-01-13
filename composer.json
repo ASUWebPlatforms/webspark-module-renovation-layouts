@@ -3,11 +3,5 @@
   "description": "ASU layouts for renovation theme.",
   "type": "drupal-module",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Anthony Averill",
-      "email": "anthony.averill@deptagency.com"
-    }
-  ],
   "require": {}
 }
