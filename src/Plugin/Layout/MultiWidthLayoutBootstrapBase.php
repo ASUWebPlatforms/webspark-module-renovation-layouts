@@ -3,8 +3,8 @@
 namespace Drupal\webspark_module_renovation_layouts\Plugin\Layout;
 
 use Drupal\Core\Form\FormStateInterface;
-use Drupal\Core\Layout\LayoutDefault;
 use Drupal\Core\Plugin\PluginFormInterface;
+use Drupal\layout_section_classes\ClassyLayout;
 
 /**
  * Base class of layouts with configurable widths.
@@ -12,7 +12,7 @@ use Drupal\Core\Plugin\PluginFormInterface;
  * @internal
  *   Plugin classes are internal.
  */
-abstract class MultiWidthLayoutBootstrapBase extends LayoutDefault implements PluginFormInterface {
+abstract class MultiWidthLayoutBootstrapBase extends ClassyLayout implements PluginFormInterface {
 
   /**
    * {@inheritdoc}
@@ -51,10 +51,8 @@ abstract class MultiWidthLayoutBootstrapBase extends LayoutDefault implements Pl
    */
   public function build(array $regions) {
     $build = parent::build($regions);
-    $build['#attributes']['class'] = [
-      'two-col-bootstrap',
-      'col-md-12',
-    ];
+    $build['#attributes']['class'][] = 'two-col-bootstrap';
+    $build['#attributes']['class'][] = 'col-md-12';
     $build['#width'] = $this->configuration['bootstrap_column_widths'];
     return $build;
   }
