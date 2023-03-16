@@ -12,7 +12,7 @@
 #}
 
 {% if content.first is not empty or content.second is not empty %}
-{% set widths = settings.bootstrap_column_widths|split('-') %}
+{% set widths = settings.additional.classes.widths|split('-') %}
 <div {{ attributes }}>
   <div class="container">
     <div class="row">

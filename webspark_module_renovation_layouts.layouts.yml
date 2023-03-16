@@ -119,8 +119,19 @@ layout_twocol_bootstrap_section:
   path: layouts/twocol_bootstrap_section
   template: layout--twocol-bootstrap-section
   library: webspark_module_renovation_layouts/twocol_bootstrap_section
-  class: '\Drupal\webspark_module_renovation_layouts\Plugin\Layout\TwoColumnBootstrapLayout'
   classes:
+    widths:
+      label: 'Column width'
+      multiple: false
+      required: true
+      default: '6-6'
+      options:
+        '6-6': '6/6 (50%/50%)'
+        '3-9': '3/9 (25%/75%)'
+        '4-8': '4/8 (33%/66%)'
+        '9-3': '9/3 (75%/25%)'
+        '8-4': '8/4 (66%/33%)'
+      description: 'Select the column widths for this region.'
     style:
       label: 'Style'
       multiple: true
