@@ -4,7 +4,7 @@ namespace Drupal\webspark_module_renovation_layouts\Plugin\Layout;
 
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Plugin\PluginFormInterface;
-use Drupal\layout_section_classes\ClassyLayout;
+use Drupal\Core\Layout\LayoutDefault;
 
 /**
  * Base class of layouts with configurable widths.
@@ -12,7 +12,7 @@ use Drupal\layout_section_classes\ClassyLayout;
  * @internal
  *   Plugin classes are internal.
  */
-abstract class MultiWidthLayoutBootstrapBase extends ClassyLayout implements PluginFormInterface {
+abstract class MultiWidthLayoutBootstrapBase extends LayoutDefault implements PluginFormInterface {
 
   /**
    * {@inheritdoc}
